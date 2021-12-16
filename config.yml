@@ -1,0 +1,16 @@
+title: Python-02
+description: How to implement branching in Python?
+template:
+  repo: python-02-template
+  name: python-02
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
